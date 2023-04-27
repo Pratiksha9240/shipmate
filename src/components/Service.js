@@ -13,7 +13,7 @@ const Service = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-8 h-8 text-blue"
             >
               <path
                 strokeLinecap="round"
@@ -43,7 +43,7 @@ const Service = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-8 h-8 text-red"
             >
               <path
                 strokeLinecap="round"
@@ -74,7 +74,7 @@ const Service = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-8 h-8 text-orange"
             >
               <path
                 strokeLinecap="round"
@@ -104,7 +104,7 @@ const Service = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-8 h-8 text-blue"
             >
               <path
                 strokeLinecap="round"

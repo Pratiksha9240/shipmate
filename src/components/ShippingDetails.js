@@ -82,18 +82,12 @@ const ShippingDetails = () => {
           <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
             <ul className="space-y-2 font-medium">
               <li>
-                <a
-                  href="#"
-                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
-                >
+                <p className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                   <span className="ml-3">3 Top Quotes</span>
-                </a>
+                </p>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
-                >
+                <p className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                   <span className="flex-1 ml-3 whitespace-nowrap">Filters</span>
                   <span>
                     <svg
@@ -111,13 +105,10 @@ const ShippingDetails = () => {
                       />
                     </svg>
                   </span>
-                </a>
+                </p>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
-                >
+                <p className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                   <span className="flex-1 ml-3 whitespace-nowrap">Price</span>
                   <span>
                     <svg
@@ -135,13 +126,10 @@ const ShippingDetails = () => {
                       />
                     </svg>
                   </span>
-                </a>
+                </p>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
-                >
+                <p className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                   <span className="flex-1 ml-3 whitespace-nowrap">Modes</span>
                   <span>
                     <svg
@@ -159,13 +147,10 @@ const ShippingDetails = () => {
                       />
                     </svg>
                   </span>
-                </a>
+                </p>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
-                >
+                <p className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                   <span className="flex-1 ml-3 whitespace-nowrap">Seller</span>
                   <span>
                     <svg
@@ -183,7 +168,7 @@ const ShippingDetails = () => {
                       />
                     </svg>
                   </span>
-                </a>
+                </p>
               </li>
             </ul>
           </div>
@@ -345,9 +330,9 @@ const ShippingDetails = () => {
                   Select
                 </button>
                 <br />
-                <a href="" className="underline text-dark-gray ml-10">
+                <button className="underline text-dark-gray ml-10">
                   View Details
-                </a>
+                </button>
               </span>
             </div>
           </div>
@@ -507,9 +492,9 @@ const ShippingDetails = () => {
                   Select
                 </button>
                 <br />
-                <a href="" className="underline text-dark-gray ml-10">
+                <button className="underline text-dark-gray ml-10">
                   View Details
-                </a>
+                </button>
               </span>
             </div>
           </div>
@@ -669,9 +654,9 @@ const ShippingDetails = () => {
                   Select
                 </button>
                 <br />
-                <a href="" className="underline text-dark-gray ml-10">
+                <button className="underline text-dark-gray ml-10">
                   View Details
-                </a>
+                </button>
               </span>
             </div>
           </div>

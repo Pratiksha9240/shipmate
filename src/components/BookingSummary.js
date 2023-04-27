@@ -1,6 +1,6 @@
 import { useHistory } from "react-router-dom";
 import card from "../assets/card.jpg";
-import insurance from '../assets/insurance.jpg'
+import insurance from "../assets/insurance.jpg";
 
 const BookingSummary = () => {
   const history = useHistory();
@@ -217,7 +217,11 @@ const BookingSummary = () => {
                 Seller: Primetime worlwide
               </h5>
               <br />
-              <img src={card} className="h-10 w-40 ml-[60px] mt-[30px]" alt="" />
+              <img
+                src={card}
+                className="h-10 w-40 ml-[60px] mt-[10px]"
+                alt=""
+              />
             </div>
 
             <div class="block rounded-lg w-[22rem] ml-[170px] bg-white p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
@@ -225,7 +229,7 @@ const BookingSummary = () => {
                 Insurance:Xcover.com
               </h5>
               <br />
-              <img src={insurance} width='200px' alt="" />
+              <img src={insurance} width="200px" alt="" />
             </div>
           </div>
         </div>
@@ -269,10 +273,7 @@ const BookingSummary = () => {
           <hr className="text-dark-gray" />
           <br />
           <p className="mb-4 text-base text-dark-gray dark:text-neutral-200">
-            Add a{" "}
-            <a href="" className="underline text-blue">
-              promo code
-            </a>
+            Add a <button className="underline text-blue">promo code</button>
           </p>
           <div className="grid grid-cols-2">
             <p className="mb-4 text-base text-dark-gray dark:text-neutral-200">
